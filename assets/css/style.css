@@ -661,16 +661,16 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-.hero {
+.main {
   height: 100vh;
   position: relative;
   color: #fff;
 }
-.hero .hero-content {
+.main .main-content {
   text-align: center;
   position: absolute;
 }
-.hero .overlay-itro {
+.main .overlay-itro {
   background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
@@ -680,55 +680,55 @@ a:hover {
   width: 100%;
   opacity: 0.9;
 }
-.hero .hero-title {
+.main .main-title {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
 }
 @media (min-width: 768px) {
-  .hero .hero-title {
+  .main .main-title {
     font-size: 4.5rem;
   }
 }
-.hero .hero-subtitle {
+.main .main-subtitle {
   font-size: 1.5rem;
   font-weight: 600;
 }
 @media (min-width: 768px) {
-  .hero .hero-subtitle {
+  .main .main-subtitle {
     font-size: 2.5rem;
   }
 }
-.hero .text-slider-items {
+.main .text-slider-items {
   display: none;
 }
 
-.hero-single {
+.main-single {
   height: 350px;
 }
-.hero-single .hero-content {
+.main-single .main-content {
   margin-top: 30px;
 }
-.hero-single .hero-title {
+.main-single .main-title {
   text-transform: uppercase;
   font-size: 3rem;
 }
 @media (min-width: 768px) {
-  .hero-single .hero-title {
+  .main-single .main-title {
     font-size: 3.5rem;
   }
 }
-.hero-single .breadcrumb {
+.main-single .breadcrumb {
   background-color: transparent;
   color: #0078ff;
 }
-.hero-single .breadcrumb .breadcrumb-item:before {
+.main-single .breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
 }
-.hero-single .breadcrumb .breadcrumb-item.active {
+.main-single .breadcrumb .breadcrumb-item.active {
   color: #cde1f8;
 }
-.hero-single .breadcrumb a {
+.main-single .breadcrumb a {
   color: #fff;
 }
 
