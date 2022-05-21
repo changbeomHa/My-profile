@@ -1355,6 +1355,8 @@ footer .credits a {
   animation-name: scroll;
 }
 
+
+
 @keyframes scroll{
   0%{
       opacity: 1;
